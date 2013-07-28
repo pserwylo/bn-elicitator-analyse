@@ -10,6 +10,7 @@ import edu.monash.pserwylo.bnelicitator.pogo.Participant
 import edu.monash.pserwylo.bnelicitator.pogo.Question
 import groovy.sql.Sql
 
+// Set this to the real credentials of the database which you used for the bn-elicitator survey...
 Sql sql = Sql.newInstance( "jdbc:mysql://localhost/insurance", "root", "root", "com.mysql.jdbc.Driver" )
 
 println "Loading participants..."
